@@ -1,6 +1,7 @@
-import patterns.common.headWords
+import functional.commonRun
+import functional.singletonsRun
 
 fun main() {
-    val list = listOf("hellO wOrlD", null, "fRom", "", "kOtlin");
-    println(list.headWords())
+    commonRun()
+    singletonsRun()
 }
